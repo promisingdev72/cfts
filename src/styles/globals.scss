@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-button {
+  z-index: 20;
+}
+
+h1{
+  font-size: 48px;
+}
+
+.glups{
+  height:120px;
+  width:120px;
+  background-color: red;
+}
+
+#grups{
+  height:120px;
+  width:120px;
+  background-color: blue;
+}
+
+.menu {
+  position: absolute;
+  background-color: white;
+  color: #fff;
+}
+
+.menu--right {
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+}
+
+.menu--full {
+  width: 100%;
+  height: 50vh;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* z-index: auto; */
+}
+
+.menu-list {
+  padding: 0;
+  list-style: none;
+}
+
+.menu-list--right {
+  margin: 100px 24px;
+}
+
+.menu-list-item--full {
+  font-size: 5em;
+  margin: 40px 0;
+}
+
+.menu-list-item {
+  font-family: "Barlow Semi Condensed";
+}
+
+.menu-list-item--right {
+  margin: 24px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #e8daff;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #fff;
+}
+.triangle::after{
+  content: '\2023';
+  position: absolute;
+  color: #658ea5;
+  font-size: 60px;
+  top: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(0, -50%) rotate(90deg);
+  right: -30px;
+}
+.triangle1::after{
+  content: '\2023';
+  position: absolute;
+  color: #658ea5;
+  font-size: 50px;
+  top: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(0, -50%) rotate(90deg);
+  right: 0px;
+}
